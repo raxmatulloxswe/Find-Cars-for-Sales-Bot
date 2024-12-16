@@ -12,18 +12,12 @@ router = Router()
 
 @router.callback_query(ChooseLanguageCallbackData.filter())
 async def first_handler(callback_query: types.CallbackQuery, state: FSMContext, callback_data: ChooseLanguageCallbackData):
-    # Get the user's telegram_id
     telegram_id = callback_query.from_user.id
-
-    # Check if the user exists in the database
-    user_exists = await db.get_user_telegram_id(telegram_id)  # Make sure this method exists in your db_manager
+    user_exists = await db.get_user_telegram_id(telegram_id)
 
     if user_exists:
-        # User exists, skip registration and send the main menu
-        await callback_query.message.answer("Siz allaqachon ro'yxatdan o'tgan ekansiz", reply_markup=inline_main_menu())
-        # await state.set_state(RegistrationStateGroup.main_menu)  # Set the state for main menu
+        await callback_query.message.edit_text("Siz allaqachon ro'yxatdan o'tgan ekansiz!", reply_markup=inline_main_menu())
     else:
-        # User doesn't exist, proceed with the registration process
         await state.update_data({"language": callback_data.language})
 
         await callback_query.message.answer(f"Telefon raqamingizni jo`nating", reply_markup=reply_send_phone_number())
