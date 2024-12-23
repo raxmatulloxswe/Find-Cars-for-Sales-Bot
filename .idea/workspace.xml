@@ -6,15 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1da71815-564f-45de-adc1-af74dd2e4a49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/commands.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handlers/registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/handlers/registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/keyboards/inline.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/keyboards/inline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/callback_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/callback_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/utils/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/states.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image;s=1000x750" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image;s=750x1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/save-img.py" beforeDir="false" afterPath="$PROJECT_DIR$/save-img.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +42,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ghost/OneDrive/Desktop/Vote-for-Headmaster-aiogram-bot"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ghost/OneDrive/Desktop/Vote-for-Headmaster-aiogram-bot&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ghost\OneDrive\Desktop\Find-Cars-for-Sales-Bot\app\handlers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ghost\OneDrive\Desktop\Find-Cars-for-Sales-Bot" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-c69650fc56ca-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15619.17" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>

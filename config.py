@@ -6,5 +6,5 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 REDIS_URL = os.getenv("REDIS_URL")
 DB_DNS = os.getenv("DB_DSN")
-
+ADMINS = os.getenv('ADMINS')
 SUBSCRIPTION_CHANNEL_ID = -1002485665343
